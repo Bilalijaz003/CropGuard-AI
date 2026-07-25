@@ -1,5 +1,7 @@
 # 🌱 CropGuard AI
+## 🚀 Live Application deployed on vercel
 
+🔗 **CropGuard AI:** https://cropguard-ai-weld.vercel.app
 ### AI-Powered Crop Health Detection System
 
 --- Press CNtrl+shift+v to open markdown preview.
