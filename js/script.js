@@ -83,7 +83,7 @@ async function analyzeImage() {
     try {
 
         // Send to Flask backend
-        const response = await fetch('https://cropguard-ai-backend.onrender.com/predict', {
+        const response = await fetch('https://cropguard-ai-hngd.onrender.com/predict', {
             method: 'POST',
             body: formData
         });
