@@ -4,8 +4,6 @@
 🔗 **CropGuard AI:** https://cropguard-ai-weld.vercel.app
 ### AI-Powered Crop Health Detection System
 
---- Press CNtrl+shift+v to open markdown preview.
-
 ## 📌 What is CropGuard AI?
 
 CropGuard AI is a web-based application that uses Artificial Intelligence (AI) to detect diseases in crop plants. Farmers can upload a photo of a wheat or sugarcane leaf, and the system instantly analyzes the image to determine whether the crop is healthy or diseased. If a disease is detected, the system also provides practical farming advice to help farmers take the appropriate action.
