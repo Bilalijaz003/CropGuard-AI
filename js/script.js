@@ -83,7 +83,7 @@ async function analyzeImage() {
     try {
 
         // Send to Flask backend
-        const response = await fetch('https://cropguard-ai-backend.onrender.com', {
+        const response = await fetch('https://cropguard-ai-backend.onrender.com/predict', {
             method: 'POST',
             body: formData
         });
@@ -109,7 +109,7 @@ async function analyzeImage() {
     } catch (error) {
 
         loading.style.display = 'none';
-        alert('Connection error. Make sure backend server is running on http://localhost:5000');
+        alert('Connection error. Make sure backend server is running');
         console.error('Fetch error:', error);
     }
 }
