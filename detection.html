@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Crop Detection | CropGuard AI</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- Navigation -->
+
+<header>
+
+<nav class="navbar">
+
+<div class="logo">
+🌱 CropGuard AI
+</div>
+
+
+<ul>
+
+<li><a href="index.html">Home</a></li>
+
+<li><a href="detection.html">Detection</a></li>
+
+<li><a href="dashboard.html">Dashboard</a></li>
+
+<li><a href="features.html">Features</a></li>
+
+</ul>
+
+</nav>
+
+</header>
+
+
+
+
+<!-- Detection Hero -->
+
+<section class="detection-header">
+
+
+<h1>
+AI Crop Health Detection
+</h1>
+
+
+<p>
+Upload a wheat or sugarcane image and let CropGuard AI analyze its health.
+</p>
+
+
+</section>
+
+
+
+
+
+<!-- Detection Area -->
+
+
+<section class="detection-container">
+
+
+
+<div class="upload-box">
+
+
+<h2>
+Upload Crop Image
+</h2>
+
+
+
+<label class="upload-area">
+
+
+<input 
+type="file"
+id="cropImage"
+accept="image/*"
+onchange="previewImage(event)"
+>
+
+
+
+<span>
+📷 Click to upload crop image
+</span>
+
+
+</label>
+
+
+
+<img id="preview"
+class="image-preview"
+src=""
+alt="Crop Preview">
+
+
+
+</div>
+
+
+
+
+
+<div class="analysis-box">
+
+
+<h2>
+Crop Information
+</h2>
+
+
+
+<label>
+Select Crop
+</label>
+
+
+<select id="cropType">
+
+
+<option value="wheat">
+Wheat
+</option>
+
+
+<option value="sugarcane">
+Sugarcane
+</option>
+
+
+</select>
+
+
+
+<button 
+id="analyzeBtn"
+class="btn">
+
+Analyze Crop
+
+</button>
+
+
+
+<div id="loading"
+class="loading">
+
+🤖 AI is analyzing image...
+
+</div>
+
+
+
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+<!-- Result Section -->
+
+
+<section 
+class="result-section"
+id="resultSection">
+
+
+
+<h2>
+Analysis Result
+</h2>
+
+
+
+<div class="result-card">
+
+
+
+<h3 id="cropResult">
+Crop:
+</h3>
+
+
+<h3 id="healthResult">
+Status:
+</h3>
+
+
+<h3 id="confidenceResult">
+Confidence:
+</h3>
+
+
+
+<div class="advice-box">
+
+
+<h3>
+Farmer Advice
+</h3>
+
+
+<p id="adviceText">
+
+No analysis completed yet.
+
+</p>
+
+
+</div>
+
+
+
+</div>
+
+
+</section>
+
+
+
+
+
+
+
+<!-- How it Works -->
+
+
+<section class="process">
+
+
+<h2>
+How CropGuard AI Works
+</h2>
+
+
+
+<div class="process-container">
+
+
+
+<div class="process-card">
+
+<h3>
+1. Upload
+</h3>
+
+<p>
+Farmer uploads a crop leaf image.
+</p>
+
+</div>
+
+
+
+
+<div class="process-card">
+
+<h3>
+2. AI Analysis
+</h3>
+
+<p>
+Artificial intelligence examines crop patterns.
+</p>
+
+</div>
+
+
+
+
+<div class="process-card">
+
+<h3>
+3. Result
+</h3>
+
+<p>
+System provides health status and guidance.
+</p>
+
+</div>
+
+
+
+</div>
+
+</section>
+
+
+
+
+
+<footer>
+
+<p>
+© 2026 CropGuard AI | Smart Agriculture Solution
+</p>
+
+</footer>
+
+
+
+<script src="js/script.js"></script>
+
+
+</body>
+
+</html>
