@@ -8,7 +8,6 @@
 
 CropGuard AI is a web-based application that uses Artificial Intelligence (AI) to detect diseases in crop plants. Farmers can upload a photo of a wheat or sugarcane leaf, and the system instantly analyzes the image to determine whether the crop is healthy or diseased. If a disease is detected, the system also provides practical farming advice to help farmers take the appropriate action.
 
----
 
 ## 🚜 The Problem It Solves
 
@@ -293,13 +292,16 @@ If the backend is not running, the crop detection feature will not work.
 ![alt text](<Project 3 dashboard-1.PNG>)
 
 ---
+⚠️ Model Limitations
+
+CropGuard AI is trained on a relatively small dataset of approximately 600 crop images. Due to the limited training data, the AI model may sometimes produce incorrect predictions or unreliable results.
 
 ## 🔮 Future Improvements
 
 - Support more crop species
 - Real-time camera detection
 - Cloud database integration
-- User authentication
+- Reliable and accurate results
 - Multi-language support
 - Mobile application
 
