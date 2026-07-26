@@ -2,6 +2,63 @@
 ## 🚀 Live Application deployed on vercel
 
 🔗 **CropGuard AI:** https://cropguard-ai-weld.vercel.app
+
+## 🚀 Deployment
+
+The CropGuard AI application is deployed using lightweight cloud services, making it easy to access without installing any software.
+
+| Component | Service Used | Purpose |
+|-----------|--------------|---------|
+| Frontend | **Vercel** | Hosts the HTML, CSS, and JavaScript frontend with fast global delivery. |
+| Backend API | **Render** | Hosts the Flask API responsible for loading the AI model and processing image predictions. |
+| AI Model | **TensorFlow/Keras** | Performs crop disease classification from uploaded images. |
+
+---
+
+## 🏗️ Project Architecture
+
+CropGuard AI follows a simple client-server architecture.
+
+```text
++-------------------+
+|     User Browser  |
++---------+---------+
+          |
+          | Upload Image
+          v
++-------------------+
+| Frontend (Vercel) |
+| HTML • CSS • JS   |
++---------+---------+
+          |
+          | HTTP Request
+          v
++-------------------+
+| Backend (Render)  |
+| Flask REST API    |
++---------+---------+
+          |
+          | Load Model
+          v
++---------------------------+
+| TensorFlow/Keras Model    |
++---------+-----------------+
+          |
+          | Prediction
+          v
++---------------------------+
+| Disease + Confidence      |
+| + Recommendation          |
++---------------------------+
+          |
+          | JSON Response
+          v
++-------------------+
+| Frontend Displays |
+| Result to User    |
++-------------------+
+```
+
 ### AI-Powered Crop Health Detection System
 
 ## 📌 What is CropGuard AI?
