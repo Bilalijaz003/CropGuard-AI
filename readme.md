@@ -273,18 +273,6 @@ You can:
 
 ---
 
-## ⚠️ Important Note
-
-The Flask backend must be running at:
-
-```text
-http://localhost:5000
-```
-
-If the backend is not running, the crop detection feature will not work.
-
----
-
 ## 📸 Working Screenshots
 
 ### 1: Detecting the Disease
