@@ -2,15 +2,25 @@
 ## 🚀 Live Application deployed on vercel
 
 🔗 **CropGuard AI:** https://cropguard-ai-weld.vercel.app
-### AI-Powered Crop Health Detection System
 
---- Press CNtrl+shift+v to open markdown preview.
+## 🚀 Deployment
+
+The CropGuard AI application is deployed using lightweight cloud services, making it easy to access without installing any software.
+
+| Component | Service Used | Purpose |
+|-----------|--------------|---------|
+| Frontend | **Vercel** | Hosts the HTML, CSS, and JavaScript frontend with fast global delivery. |
+| Backend API | **Render** | Hosts the Flask API responsible for loading the AI model and processing image predictions. |
+
+---
+
+
+### AI-Powered Crop Health Detection System
 
 ## 📌 What is CropGuard AI?
 
 CropGuard AI is a web-based application that uses Artificial Intelligence (AI) to detect diseases in crop plants. Farmers can upload a photo of a wheat or sugarcane leaf, and the system instantly analyzes the image to determine whether the crop is healthy or diseased. If a disease is detected, the system also provides practical farming advice to help farmers take the appropriate action.
 
----
 
 ## 🚜 The Problem It Solves
 
@@ -263,18 +273,6 @@ You can:
 
 ---
 
-## ⚠️ Important Note
-
-The Flask backend must be running at:
-
-```text
-http://localhost:5000
-```
-
-If the backend is not running, the crop detection feature will not work.
-
----
-
 ## 📸 Working Screenshots
 
 ### 1: Detecting the Disease
@@ -295,13 +293,16 @@ If the backend is not running, the crop detection feature will not work.
 ![alt text](<Project 3 dashboard-1.PNG>)
 
 ---
+⚠️ Model Limitations
+
+CropGuard AI is trained on a relatively small dataset of approximately 600 crop images. Due to the limited training data, the AI model may sometimes produce incorrect predictions or unreliable results.
 
 ## 🔮 Future Improvements
 
 - Support more crop species
 - Real-time camera detection
 - Cloud database integration
-- User authentication
+- Reliable and accurate results
 - Multi-language support
 - Mobile application
 
