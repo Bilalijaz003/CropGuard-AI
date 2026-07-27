@@ -24,10 +24,7 @@ CORS(app)
 # Exact path to your model file
 # =========================
 
-MODEL_PATH = os.path.join(
-    os.path.dirname(os.path.abspath(__file__)),
-    "CropGuardAI_Model.keras"
-)
+MODEL_PATH = r'C:\Users\HP Computers\Desktop\Crop Project\croop new\backend\CropGuardAI_Model.keras'
 
 crop_model = None
 
